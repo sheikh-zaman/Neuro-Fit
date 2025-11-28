@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neuro-Fit | Train Your Nervous System, Transform Your Body</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <p class="mb-0 text-center">Activate 30% more muscle fibers with targeted neuro-stim.</p>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="logo-container">
+                    <svg class="logo" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Brain -->
+                        <path d="M100 30 Q60 40 50 70 Q45 90 50 110 Q55 130 70 140 Q85 150 100 145 Q115 150 130 140 Q145 130 150 110 Q155 90 150 70 Q140 40 100 30 Z" 
+                              fill="#2962FF" opacity="0.8"/>
+                        <path d="M85 50 Q75 60 75 75 Q75 85 80 90 Q85 95 90 90 Q95 85 95 75 Q95 60 85 50 Z" fill="#FFD600"/>
+                        <path d="M105 50 Q115 60 115 75 Q115 85 110 90 Q105 95 100 90 Q95 85 95 75 Q95 60 105 50 Z" fill="#FFD600"/>
+                        <!-- Bicep -->
+                        <path d="M100 145 Q100 160 95 170 Q90 180 85 185 Q80 190 75 188 Q70 186 68 180 Q66 174 70 170 Q74 166 80 165 Q86 164 90 160 Q94 156 95 150 Q96 144 100 145 Z" 
+                              fill="#D32F2F"/>
+                        <path d="M100 145 Q100 160 105 170 Q110 180 115 185 Q120 190 125 188 Q130 186 132 180 Q134 174 130 170 Q126 166 120 165 Q114 164 110 160 Q106 156 105 150 Q104 144 100 145 Z" 
+                              fill="#D32F2F"/>
+                    </svg>
+                    <span class="logo-text">Neuro-Fit</span>
+                </div>
+                <nav class="nav-menu">
+                    <a href="#features" class="nav-link">Features</a>
+                    <a href="#calculator" class="nav-link">Calculator</a>
+                    <a href="#activation" class="nav-link">Activation</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="hero-title">Train Your Nervous System, Transform Your Body</h1>
+                    <p class="hero-subtitle">Revolutionary neurostimulation technology that activates dormant muscle fibers and optimizes your workout performance.</p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">30%</div>
+                            <div class="stat-label">More Muscle Activation</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">2x</div>
+                            <div class="stat-label">Faster Recovery</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">45%</div>
+                            <div class="stat-label">Strength Increase</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="activation-visualization" id="heroActivation">
+                        <div class="neural-network">
+                            <div class="neuron active" style="top: 20%; left: 30%;"></div>
+                            <div class="neuron active" style="top: 40%; left: 50%;"></div>
+                            <div class="neuron active" style="top: 60%; left: 30%;"></div>
+                            <div class="neuron active" style="top: 80%; left: 50%;"></div>
+                            <div class="neuron active" style="top: 20%; left: 70%;"></div>
+                            <div class="neuron active" style="top: 40%; left: 70%;"></div>
+                            <div class="neuron active" style="top: 60%; left: 70%;"></div>
+                            <div class="neuron active" style="top: 80%; left: 70%;"></div>
+                            <svg class="connections" viewBox="0 0 100 100" preserveAspectRatio="none">
+                                <line x1="30" y1="20" x2="50" y2="40" class="connection"/>
+                                <line x1="50" y1="40" x2="30" y2="60" class="connection"/>
+                                <line x1="30" y1="60" x2="50" y2="80" class="connection"/>
+                                <line x1="50" y1="40" x2="70" y2="20" class="connection"/>
+                                <line x1="50" y1="40" x2="70" y2="40" class="connection"/>
+                                <line x1="70" y1="40" x2="70" y2="60" class="connection"/>
+                                <line x1="70" y1="60" x2="70" y2="80" class="connection"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">Advanced Neurostimulation Features</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="50" cy="50" r="40" fill="none" stroke="#2962FF" stroke-width="2"/>
+                                <path d="M30 50 L45 65 L70 35" stroke="#FFD600" stroke-width="3" fill="none"/>
+                            </svg>
+                        </div>
+                        <h3>Personalized Stimulation Patterns</h3>
+                        <p>AI-driven algorithms analyze your muscle composition and create custom neurostimulation patterns for maximum activation.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="20" y="30" width="60" height="40" fill="none" stroke="#2962FF" stroke-width="2"/>
+                                <line x1="30" y1="50" x2="70" y2="50" stroke="#D32F2F" stroke-width="3"/>
+                                <circle cx="50" cy="50" r="3" fill="#FFD600"/>
+                            </svg>
+                        </div>
+                        <h3>Real-Time Muscle Feedback</h3>
+                        <p>Monitor neural activation in real-time with advanced EMG sensors that track muscle fiber recruitment patterns.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M50 20 L50 80 M30 50 L70 50" stroke="#2962FF" stroke-width="2"/>
+                                <circle cx="50" cy="50" r="25" fill="none" stroke="#FFD600" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3>Recovery Optimization</h3>
+                        <p>Accelerate recovery with targeted neurostimulation that reduces inflammation and enhances muscle repair processes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Muscle Group Selector Section -->
+    <section class="muscle-selector" id="activation">
+        <div class="container">
+            <h2 class="section-title">Neural Activation Patterns</h2>
+            <p class="section-subtitle">Select a muscle group to visualize neural activation patterns</p>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="muscle-groups">
+                        <button class="muscle-btn active" data-muscle="chest">
+                            <span>Chest</span>
+                            <div class="activation-indicator"></div>
+                        </button>
+                        <button class="muscle-btn" data-muscle="back">
+                            <span>Back</span>
+                            <div class="activation-indicator"></div>
+                        </button>
+                        <button class="muscle-btn" data-muscle="shoulders">
+                            <span>Shoulders</span>
+                            <div class="activation-indicator"></div>
+                        </button>
+                        <button class="muscle-btn" data-muscle="biceps">
+                            <span>Biceps</span>
+                            <div class="activation-indicator"></div>
+                        </button>
+                        <button class="muscle-btn" data-muscle="triceps">
+                            <span>Triceps</span>
+                            <div class="activation-indicator"></div>
+                        </button>
+                        <button class="muscle-btn" data-muscle="legs">
+                            <span>Legs</span>
+                            <div class="activation-indicator"></div>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="activation-display">
+                        <div class="muscle-diagram" id="muscleDiagram">
+                            <div class="activation-zone" id="activationZone"></div>
+                            <div class="neural-pattern" id="neuralPattern"></div>
+                        </div>
+                        <div class="activation-stats">
+                            <div class="stat-box">
+                                <div class="stat-label">Activation Level</div>
+                                <div class="stat-value" id="activationLevel">0%</div>
+                            </div>
+                            <div class="stat-box">
+                                <div class="stat-label">Neural Frequency</div>
+                                <div class="stat-value" id="neuralFreq">0 Hz</div>
+                            </div>
+                            <div class="stat-box">
+                                <div class="stat-label">Fiber Recruitment</div>
+                                <div class="stat-value" id="fiberRecruit">0%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workout Optimization Calculator -->
+    <section class="calculator" id="calculator">
+        <div class="container">
+            <h2 class="section-title">Workout Optimization Calculator</h2>
+            <p class="section-subtitle">Calculate optimal neurostimulation parameters for your workout</p>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="calculator-form">
+                        <div class="form-group">
+                            <label for="bodyWeight">Body Weight (kg)</label>
+                            <input type="number" id="bodyWeight" class="form-control" value="75" min="40" max="200">
+                        </div>
+                        <div class="form-group">
+                            <label for="workoutType">Workout Type</label>
+                            <select id="workoutType" class="form-control">
+                                <option value="strength">Strength Training</option>
+                                <option value="endurance">Endurance Training</option>
+                                <option value="hypertrophy">Hypertrophy</option>
+                                <option value="power">Power Training</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="experience">Training Experience</label>
+                            <select id="experience" class="form-control">
+                                <option value="beginner">Beginner (0-1 years)</option>
+                                <option value="intermediate">Intermediate (1-3 years)</option>
+                                <option value="advanced">Advanced (3+ years)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="targetMuscle">Target Muscle Group</label>
+                            <select id="targetMuscle" class="form-control">
+                                <option value="chest">Chest</option>
+                                <option value="back">Back</option>
+                                <option value="shoulders">Shoulders</option>
+                                <option value="biceps">Biceps</option>
+                                <option value="triceps">Triceps</option>
+                                <option value="legs">Legs</option>
+                            </select>
+                        </div>
+                        <button class="btn-calculate" onclick="calculateOptimization()">Calculate Optimization</button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="calculator-results" id="calculatorResults">
+                        <h3>Optimization Results</h3>
+                        <div class="result-item">
+                            <div class="result-label">Stimulation Frequency</div>
+                            <div class="result-value" id="stimFreq">-- Hz</div>
+                        </div>
+                        <div class="result-item">
+                            <div class="result-label">Pulse Duration</div>
+                            <div class="result-value" id="pulseDur">-- μs</div>
+                        </div>
+                        <div class="result-item">
+                            <div class="result-label">Intensity Level</div>
+                            <div class="result-value" id="intensity">-- %</div>
+                        </div>
+                        <div class="result-item">
+                            <div class="result-label">Session Duration</div>
+                            <div class="result-value" id="sessionDur">-- min</div>
+                        </div>
+                        <div class="result-item">
+                            <div class="result-label">Expected Activation</div>
+                            <div class="result-value" id="expectedAct">-- %</div>
+                        </div>
+                        <div class="result-item highlight">
+                            <div class="result-label">Performance Boost</div>
+                            <div class="result-value" id="perfBoost">-- %</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bottom Bar -->
+    <footer class="footer">
+        <div class="container">
+            <p class="mb-0 text-center">© 2025 Neuro-Fit. Developed by <a href="https://rivertheme.com/" target="_blank" rel="noopener noreferrer" class="footer-link">RiverTheme</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+

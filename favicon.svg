@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Brain -->
+  <path d="M100 30 Q60 40 50 70 Q45 90 50 110 Q55 130 70 140 Q85 150 100 145 Q115 150 130 140 Q145 130 150 110 Q155 90 150 70 Q140 40 100 30 Z" 
+        fill="#2962FF" opacity="0.9"/>
+  <!-- Brain details -->
+  <path d="M85 50 Q75 60 75 75 Q75 85 80 90 Q85 95 90 90 Q95 85 95 75 Q95 60 85 50 Z" fill="#FFD600"/>
+  <path d="M105 50 Q115 60 115 75 Q115 85 110 90 Q105 95 100 90 Q95 85 95 75 Q95 60 105 50 Z" fill="#FFD600"/>
+  <path d="M100 80 Q95 85 95 95 Q95 105 100 110 Q105 105 105 95 Q105 85 100 80 Z" fill="#FFD600"/>
+  
+  <!-- Neural connections -->
+  <line x1="70" y1="100" x2="85" y2="110" stroke="#FFD600" stroke-width="2" opacity="0.6"/>
+  <line x1="130" y1="100" x2="115" y2="110" stroke="#FFD600" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Left Bicep -->
+  <path d="M100 145 Q100 160 95 170 Q90 180 85 185 Q80 190 75 188 Q70 186 68 180 Q66 174 70 170 Q74 166 80 165 Q86 164 90 160 Q94 156 95 150 Q96 144 100 145 Z" 
+        fill="#D32F2F"/>
+  <!-- Right Bicep -->
+  <path d="M100 145 Q100 160 105 170 Q110 180 115 185 Q120 190 125 188 Q130 186 132 180 Q134 174 130 170 Q126 166 120 165 Q114 164 110 160 Q106 156 105 150 Q104 144 100 145 Z" 
+        fill="#D32F2F"/>
+  
+  <!-- Muscle definition lines -->
+  <line x1="85" y1="165" x2="85" y2="180" stroke="#000" stroke-width="1.5" opacity="0.3"/>
+  <line x1="115" y1="165" x2="115" y2="180" stroke="#000" stroke-width="1.5" opacity="0.3"/>
+  <line x1="90" y1="170" x2="90" y2="185" stroke="#000" stroke-width="1.5" opacity="0.3"/>
+  <line x1="110" y1="170" x2="110" y2="185" stroke="#000" stroke-width="1.5" opacity="0.3"/>
+  
+  <!-- Neural connection from brain to biceps -->
+  <path d="M85 145 Q85 150 85 155" stroke="#2962FF" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M115 145 Q115 150 115 155" stroke="#2962FF" stroke-width="2" fill="none" opacity="0.5"/>
+</svg>
+
