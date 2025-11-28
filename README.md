@@ -72,7 +72,6 @@ The landing page presents a sleek, futuristic design with a dark theme, featurin
 
 ```
 Neuro-Fit/
-│
 ├── index.html          # Main HTML file with all sections
 ├── styles.css          # Complete styling and animations
 ├── script.js           # Interactive functionality and calculations
